@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header header {
+    background-color: rgb(74, 67, 67);
+    padding: 10px;
+}
+
+.header .menu {
+    display: flex;
+    justify-content:space-between
+}
+.header .menu ul {
+    display: flex;
+}
+.header .menu ul li {
+    padding: 0 20px;
+    list-style: none;
+}
+.header .menu ul li a {
+    text-decoration: none;
+    color: white;
+    
+}
+.header .menu .menu_one{
+    margin-left: 60px;
+}
+.container .tech{
+    display: flex;
+    justify-content: space-between;
+}
+.container .tech .techlight .techlight .one{
+    font-weight: bold;
+    font-size: x-large;
+
+}
+.container .tech .techlight a{
+    text-decoration: none;
+    font-size: x-large;
+}
+.container .home ul {
+    display: flex;
+}
+.container .home ul li {
+    padding: 20px;
+    list-style: none;
+}
+.container .home ul li a {
+    color: black;
+    text-decoration: none;
+}
+.container .icon ul {
+    display: flex;
+}
+.container .icon ul li {
+    padding: 20px;
+    list-style: none;
+}
+.container .icon ul li a {
+    color: black;
+}
+.container .content h1 {
+    width: 53%;
+    margin-left: 240px;
+    margin-top: 35px;
+}
+.container .content .content_flex {
+    width: 55%;
+    margin-left: 240px;
+    margin-top: 15px;
+}
+.container .content .content_date {
+    margin-left: 240px;
+    margin-top: 15px;
+}
+.thing{
+    display: flex;
+}
+.thing_warpper {
+    width: 25%;
+}
+.thing_warpper img {
+    max-width: 100%;
+}
+.thing_item {
+    padding: 10px;
+}
+.latest_wrapper_flex {
+    display: flex;
+    flex-wrap: wrap;
+} 
+
+.latest_wrapper{
+    margin-top: 30px;
+}
+
+.latest_wrapper_flex .latest_item {
+    width: 33.3333333%;
+    padding: 0 10px;
+    
+}
+
+.latest_wrapper_flex .latest_item img{
+    max-width: 100%;
+}
+
+.latest_wrapper_flex .latest_item p{
+    padding: 10px 0;
+}
+
+.latest_wrapper .header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.latest_wrapper .header p a{
+    text-decoration: none;
+}
